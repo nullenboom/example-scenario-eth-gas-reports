@@ -1,0 +1,279 @@
+{
+	"creation": "7-1-2020 20:51:35",
+	"analyzedScenarios": 1,
+	"scenarios": [
+		{
+			"scenarioName": "Solidity Version 0.5.0",
+			"analyzedVariants": 2,
+			"minTotalGasUsed": 160003,
+			"maxTotalGasUsed": 161441,
+			"variants": [
+				{
+					"variantName": "Contract: IncrementShort",
+					"totalGasUsed": 161441,
+					"methods": [
+						{
+							"contractName": "IncrementLong",
+							"methodName": "increment",
+							"numberOfCalls": 2,
+							"averageGasUsed": 34142,
+							"totalGasUsed": 68284,
+							"percentageOfScenario": 0.42296566547531295,
+							"gasUsed": [
+								41642,
+								26642
+							]
+						}
+					],
+					"deployments": [
+						{
+							"contractName": "IncrementShort",
+							"key": "IncrementShort_60806040",
+							"numberOfDeployments": 1,
+							"averageGasUsed": 93157,
+							"totalGasUsed": 93157,
+							"percentageOfScenario": 0.577034334524687,
+							"gasUsed": [
+								93157
+							]
+						}
+					]
+				},
+				{
+					"variantName": "Contract: IncrementLong",
+					"totalGasUsed": 160003,
+					"methods": [
+						{
+							"contractName": "IncrementLong",
+							"methodName": "increment",
+							"numberOfCalls": 2,
+							"averageGasUsed": 34125,
+							"totalGasUsed": 68250,
+							"percentageOfScenario": 0.42655450210308554,
+							"gasUsed": [
+								41625,
+								26625
+							]
+						}
+					],
+					"deployments": [
+						{
+							"contractName": "IncrementLong",
+							"key": "IncrementLong_60806040",
+							"numberOfDeployments": 1,
+							"averageGasUsed": 91753,
+							"totalGasUsed": 91753,
+							"percentageOfScenario": 0.5734454978969145,
+							"gasUsed": [
+								91753
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"scenarioName": "Solidity Version 0.5.0 Optimizer",
+			"analyzedVariants": 2,
+			"minTotalGasUsed": 158979,
+			"maxTotalGasUsed": 158979,
+			"variants": [
+				{
+					"variantName": "Contract: IncrementShort",
+					"totalGasUsed": 158979,
+					"methods": [
+						{
+							"contractName": "IncrementLong",
+							"methodName": "increment",
+							"numberOfCalls": 2,
+							"averageGasUsed": 34117,
+							"totalGasUsed": 68234,
+							"percentageOfScenario": 0.429201341057624,
+							"gasUsed": [
+								41617,
+								26617
+							]
+						}
+					],
+					"deployments": [
+						{
+							"contractName": "IncrementShort",
+							"key": "IncrementShort_60806040",
+							"numberOfDeployments": 1,
+							"averageGasUsed": 90745,
+							"totalGasUsed": 90745,
+							"percentageOfScenario": 0.570798658942376,
+							"gasUsed": [
+								90745
+							]
+						}
+					]
+				},
+				{
+					"variantName": "Contract: IncrementLong",
+					"totalGasUsed": 158979,
+					"methods": [
+						{
+							"contractName": "IncrementLong",
+							"methodName": "increment",
+							"numberOfCalls": 2,
+							"averageGasUsed": 34117,
+							"totalGasUsed": 68234,
+							"percentageOfScenario": 0.429201341057624,
+							"gasUsed": [
+								41617,
+								26617
+							]
+						}
+					],
+					"deployments": [
+						{
+							"contractName": "IncrementLong",
+							"key": "IncrementLong_60806040",
+							"numberOfDeployments": 1,
+							"averageGasUsed": 90745,
+							"totalGasUsed": 90745,
+							"percentageOfScenario": 0.570798658942376,
+							"gasUsed": [
+								90745
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"scenarioName": "Solidity Version 0.5.15",
+			"analyzedVariants": 2,
+			"minTotalGasUsed": 160731,
+			"maxTotalGasUsed": 162169,
+			"variants": [
+				{
+					"variantName": "Contract: IncrementShort",
+					"totalGasUsed": 162169,
+					"methods": [
+						{
+							"contractName": "IncrementLong",
+							"methodName": "increment",
+							"numberOfCalls": 2,
+							"averageGasUsed": 34136,
+							"totalGasUsed": 68272,
+							"percentageOfScenario": 0.42099291479875933,
+							"gasUsed": [
+								41636,
+								26636
+							]
+						}
+					],
+					"deployments": [
+						{
+							"contractName": "IncrementShort",
+							"key": "IncrementShort_60806040",
+							"numberOfDeployments": 1,
+							"averageGasUsed": 93897,
+							"totalGasUsed": 93897,
+							"percentageOfScenario": 0.5790070852012407,
+							"gasUsed": [
+								93897
+							]
+						}
+					]
+				},
+				{
+					"variantName": "Contract: IncrementLong",
+					"totalGasUsed": 160731,
+					"methods": [
+						{
+							"contractName": "IncrementLong",
+							"methodName": "increment",
+							"numberOfCalls": 2,
+							"averageGasUsed": 34119,
+							"totalGasUsed": 68238,
+							"percentageOfScenario": 0.4245478470239095,
+							"gasUsed": [
+								41619,
+								26619
+							]
+						}
+					],
+					"deployments": [
+						{
+							"contractName": "IncrementLong",
+							"key": "IncrementLong_60806040",
+							"numberOfDeployments": 1,
+							"averageGasUsed": 92493,
+							"totalGasUsed": 92493,
+							"percentageOfScenario": 0.5754521529760905,
+							"gasUsed": [
+								92493
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"metaData": {
+		"blockLimit": 6721975,
+		"methods": {
+			"IncrementLong_d09de08a": {
+				"key": "d09de08a",
+				"contract": "IncrementLong",
+				"method": "increment",
+				"inputs": []
+			},
+			"IncrementShort_d09de08a": {
+				"key": "d09de08a",
+				"contract": "IncrementShort",
+				"method": "increment",
+				"inputs": []
+			},
+			"MetaCoin_90b98a11": {
+				"key": "90b98a11",
+				"contract": "MetaCoin",
+				"method": "sendCoin",
+				"inputs": [
+					{
+						"name": "receiver",
+						"type": "address"
+					},
+					{
+						"name": "amount",
+						"type": "uint256"
+					}
+				]
+			}
+		},
+		"deployments": [
+			{
+				"name": "ConvertLib",
+				"key": "ConvertLib_60bc6100",
+				"bytecode": "0x60bc61002f600b82828239805160001a6073146000811461001f57610021565bfe5b5030600052607381538281f3fe730000000000000000000000000000000000000000301460806040526004361060555763ffffffff7c010000000000000000000000000000000000000000000000000000000060003504166396e4ee3d8114605a575b600080fd5b607a60048036036040811015606e57600080fd5b5080359060200135608c565b60408051918252519081900360200190f35b029056fea165627a7a72305820e8ca2672cd2316d246cbbe37749b9002a73265c9d6d3aaa28faf4e1e379d86880029",
+				"deployedBytecode": "0x730000000000000000000000000000000000000000301460806040526004361060555763ffffffff7c010000000000000000000000000000000000000000000000000000000060003504166396e4ee3d8114605a575b600080fd5b607a60048036036040811015606e57600080fd5b5080359060200135608c565b60408051918252519081900360200190f35b029056fea165627a7a72305820e8ca2672cd2316d246cbbe37749b9002a73265c9d6d3aaa28faf4e1e379d86880029"
+			},
+			{
+				"name": "IncrementLong",
+				"key": "IncrementLong_60806040",
+				"bytecode": "0x6080604052348015600f57600080fd5b50608e8061001e6000396000f3fe608060405260043610603e5763ffffffff7c0100000000000000000000000000000000000000000000000000000000600035041663d09de08a81146043575b600080fd5b348015604e57600080fd5b5060556057565b005b60008054600101905556fea165627a7a72305820d938645c83a6c6d8dd4806f586fd8c1085e3fafea5cfed6405a47ddd26a3666e0029",
+				"deployedBytecode": "0x608060405260043610603e5763ffffffff7c0100000000000000000000000000000000000000000000000000000000600035041663d09de08a81146043575b600080fd5b348015604e57600080fd5b5060556057565b005b60008054600101905556fea165627a7a72305820d938645c83a6c6d8dd4806f586fd8c1085e3fafea5cfed6405a47ddd26a3666e0029"
+			},
+			{
+				"name": "IncrementShort",
+				"key": "IncrementShort_60806040",
+				"bytecode": "0x6080604052348015600f57600080fd5b50608e8061001e6000396000f3fe608060405260043610603e5763ffffffff7c0100000000000000000000000000000000000000000000000000000000600035041663d09de08a81146043575b600080fd5b348015604e57600080fd5b5060556057565b005b60008054600101905556fea165627a7a72305820d8344b2cca1d17e529ebfcb312d303dc70fe77bcefe98f9fd783453dfad0c8e20029",
+				"deployedBytecode": "0x608060405260043610603e5763ffffffff7c0100000000000000000000000000000000000000000000000000000000600035041663d09de08a81146043575b600080fd5b348015604e57600080fd5b5060556057565b005b60008054600101905556fea165627a7a72305820d8344b2cca1d17e529ebfcb312d303dc70fe77bcefe98f9fd783453dfad0c8e20029"
+			},
+			{
+				"name": "MetaCoin",
+				"key": "MetaCoin_60806040",
+				"bytecode": "0x608060405234801561001057600080fd5b5032600090815260208190526040902061271090556102e4806100346000396000f3fe6080604052600436106100565763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416637bd703e8811461005b57806390b98a11146100ad578063f8b2cb4f14610107575b600080fd5b34801561006757600080fd5b5061009b6004803603602081101561007e57600080fd5b503573ffffffffffffffffffffffffffffffffffffffff16610147565b60408051918252519081900360200190f35b3480156100b957600080fd5b506100f3600480360360408110156100d057600080fd5b5073ffffffffffffffffffffffffffffffffffffffff81351690602001356101f7565b604080519115158252519081900360200190f35b34801561011357600080fd5b5061009b6004803603602081101561012a57600080fd5b503573ffffffffffffffffffffffffffffffffffffffff16610290565b600073__ConvertLib____________________________6396e4ee3d61016c84610290565b60026040518363ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808381526020018281526020019250505060206040518083038186803b1580156101c557600080fd5b505af41580156101d9573d6000803e3d6000fd5b505050506040513d60208110156101ef57600080fd5b505192915050565b336000908152602081905260408120548211156102165750600061028a565b336000818152602081815260408083208054879003905573ffffffffffffffffffffffffffffffffffffffff871680845292819020805487019055805186815290519293927fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef929181900390910190a35060015b92915050565b73ffffffffffffffffffffffffffffffffffffffff166000908152602081905260409020549056fea165627a7a72305820aed25b1736b5cceb7246f972c94a63adbf7bbc06ed1b221f86c0cecfe6fd6f8b0029",
+				"deployedBytecode": "0x6080604052600436106100565763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416637bd703e8811461005b57806390b98a11146100ad578063f8b2cb4f14610107575b600080fd5b34801561006757600080fd5b5061009b6004803603602081101561007e57600080fd5b503573ffffffffffffffffffffffffffffffffffffffff16610147565b60408051918252519081900360200190f35b3480156100b957600080fd5b506100f3600480360360408110156100d057600080fd5b5073ffffffffffffffffffffffffffffffffffffffff81351690602001356101f7565b604080519115158252519081900360200190f35b34801561011357600080fd5b5061009b6004803603602081101561012a57600080fd5b503573ffffffffffffffffffffffffffffffffffffffff16610290565b600073__ConvertLib____________________________6396e4ee3d61016c84610290565b60026040518363ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808381526020018281526020019250505060206040518083038186803b1580156101c557600080fd5b505af41580156101d9573d6000803e3d6000fd5b505050506040513d60208110156101ef57600080fd5b505192915050565b336000908152602081905260408120548211156102165750600061028a565b336000818152602081815260408083208054879003905573ffffffffffffffffffffffffffffffffffffffff871680845292819020805487019055805186815290519293927fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef929181900390910190a35060015b92915050565b73ffffffffffffffffffffffffffffffffffffffff166000908152602081905260409020549056fea165627a7a72305820aed25b1736b5cceb7246f972c94a63adbf7bbc06ed1b221f86c0cecfe6fd6f8b0029"
+			}
+		],
+		"solcInfo": {
+			"version": "----",
+			"optimizer": "----",
+			"runs": "----"
+		}
+	}
+}
