@@ -211,6 +211,76 @@
 					]
 				}
 			]
+		},
+		{
+			"scenarioName": "Solidity Version 0.5.15 Optimizer",
+			"analyzedVariants": 2,
+			"minTotalGasUsed": 159707,
+			"maxTotalGasUsed": 159707,
+			"variants": [
+				{
+					"variantName": "Contract: IncrementShort",
+					"totalGasUsed": 159707,
+					"methods": [
+						{
+							"contractName": "IncrementLong",
+							"methodName": "increment",
+							"numberOfCalls": 2,
+							"averageGasUsed": 34111,
+							"totalGasUsed": 68222,
+							"percentageOfScenario": 0.42734100461655067,
+							"gasUsed": [
+								41611,
+								26611
+							]
+						}
+					],
+					"deployments": [
+						{
+							"contractName": "IncrementShort",
+							"key": "IncrementShort_60806040",
+							"numberOfDeployments": 1,
+							"averageGasUsed": 91485,
+							"totalGasUsed": 91485,
+							"percentageOfScenario": 0.5728302453868647,
+							"gasUsed": [
+								91485
+							]
+						}
+					]
+				},
+				{
+					"variantName": "Contract: IncrementLong",
+					"totalGasUsed": 159707,
+					"methods": [
+						{
+							"contractName": "IncrementLong",
+							"methodName": "increment",
+							"numberOfCalls": 2,
+							"averageGasUsed": 34111,
+							"totalGasUsed": 68222,
+							"percentageOfScenario": 0.4271697546131353,
+							"gasUsed": [
+								41611,
+								26611
+							]
+						}
+					],
+					"deployments": [
+						{
+							"contractName": "IncrementLong",
+							"key": "IncrementLong_60806040",
+							"numberOfDeployments": 1,
+							"averageGasUsed": 91485,
+							"totalGasUsed": 91485,
+							"percentageOfScenario": 0.5728302453868647,
+							"gasUsed": [
+								91485
+							]
+						}
+					]
+				}
+			]
 		}
 	],
 	"metaData": {
